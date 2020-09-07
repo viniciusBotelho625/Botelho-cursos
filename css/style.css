@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 body {
     padding: 0;
@@ -19,9 +20,18 @@ p {
     justify-content: space-between;
 }
 
+.title-pricipal {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    align-items: center;
+    margin: 10px;
+    color: #0060A4;
+}
+
 ul .item-nav {
     display: flex;
     align-items: center;
+    padding-right: 30px;
 }
 
 ul {
@@ -31,16 +41,18 @@ ul {
 ul .item-nav li {
     list-style-type: none;
     color: rgb(172, 169, 169);
+    cursor: pointer;
 }
 
 span{
-    margin-right: 2px;
+    margin-right: 10px;
     color: rgb(172, 169, 169);
+    cursor: pointer;
 }
 
 #banner {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100vh;
 }
 
 .container h1 {
@@ -60,6 +72,7 @@ span{
     border: 2px solid rgb(143, 141, 141);
     border-radius: 30px;
 }
+
 .content div .image {
     width: 700px;
     padding: 20px;
@@ -79,12 +92,62 @@ span{
     font-family: 'Roboto', sans-serif;
 }
 
-.content .curso {
-  padding-left: 30px;
-  align-items: center;
+.curso .values {
+    margin: 10%; 
 }
 
-.content .cursos {
-    padding-right: 30px;
+.curso .values li {
+    list-style-type: none;  
+}
+
+.button {
+    background: green;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 0.4s;
+    background: rgba(7, 201, 7, 0.767);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    padding: 30px 0 40px 0;
+}
+
+footer {
+    background: rgba(44, 44, 44, 0.76);
+}
+
+.location,
+.medias {
+    display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.location {
+    max-width: 300px;
+}
+
+.contact ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#logo-animado {
+    transition:all 0.3s ease;
+}
+
+#logo-animado:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }

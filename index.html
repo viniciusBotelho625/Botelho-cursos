@@ -7,23 +7,26 @@
 
     <script src="https://kit.fontawesome.com/da77f520d1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .content .curso,
+        .content .cursos  {
+            text-align: center;
+            align-items: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <nav class="nav-bar">
         <ul>
             <a href="#" class="image">
+                <img src="img/logo.png" alt="logo" height="70" width="150" style="margin-left: -35px;">
+            </a>
+            <p class="title-pricipal">Botelho Cursos</p>
+            <a href="#" class="image">
                 <img src="img/logo.png" alt="logo" height="70" width="150">
             </a>
-            <div class="item-nav">
-                <span>
-                    <i class="fas fa-home"></i>
-                </span>
-                <li style="margin-right: 10px;" class="item">Home</li>
-                <span>
-                    <i class="far fa-question-circle"></i>
-                </span>
-                <li class="item">Sobre Nós</li>
-            </div>
         </ul>
     </nav>
     <section class="banner">
@@ -38,9 +41,19 @@
                 <div>
                     <img class="image" src="img/curso-ti.jpg" alt="TI">
                 </div>
-                <div class="curso">
+                <div class="curso"> 
                     <p class="title">Tecnólogo Análise e Desenvolvimento de Sistemas</p>
                     <p class="description">O tecnólogo em Análise e Desenvolvimento de Sistemas é um profissional de nível superior que analisa, projeta, documenta, especifica, testa, implementa e cuida da manutenção de sistemas computacionais e software.</p>
+                    
+                    <ul class="values">
+                        <li>
+                            <p class="price">R$940,00 Mensal</p>
+                        </li>
+                        <li>
+                            <p class="duration">5 Semestres</p>
+                        </li>
+                    </ul>
+                    <button class="button">Increver-se</button>
                 </div>
             </div>
         </section>
@@ -49,6 +62,16 @@
                 <div class="cursos">
                     <p class="title">Tecnólogo em Design gráfico</p>
                     <p class="description">O curso de Design forma o profissional capacitado para desenvolver conceitos visuais para peças gráficas e materiais. Quando desenvolve um produto, se preocupa com forma, funcionalidade, estrutura e estética.</p>
+                    
+                    <ul class="values">
+                        <li>
+                            <p class="price">R$1.940,00 Mensal</p>
+                        </li>
+                        <li>
+                            <p class="duration">8 Semestres</p>
+                        </li>
+                    </ul>
+                    <button class="button">Increver-se</button>
                 </div>
                 <div>
                     <img class="image" src="img/curso-design.jpg" alt="design">
@@ -63,6 +86,16 @@
                 <div class="curso">
                     <p class="title">Tecnólogo em Fotografia</p>
                     <p class="description">A faculdade de Fotografia prepara o profissional para utilizar diversas técnicas de produção, captação, finalização e tratamento de imagens. Os estudantes aprendem sobre instrumentos e processos digitais e algumas faculdades incluem também o processo analógico em sua grade curricular.</p>
+                
+                    <ul class="values">
+                        <li>
+                            <p class="price">R$440,00 Mensal</p>
+                        </li>
+                        <li>
+                            <p class="duration">4 Semestres</p>
+                        </li>
+                    </ul>
+                    <button class="button">Increver-se</button>
                 </div>
             </div>
         </section>
@@ -71,6 +104,16 @@
                 <div class="cursos">
                     <p class="title">Tecnólogo em Marketing</p>
                     <p class="description">O Tecnólogo em Marketing identifica tendências do mercado consumidor, estuda oportunidades para venda de produtos e serviços e elabora campanhas com fins comerciais. Sua principal função é satisfazer clientes e garantir retorno positivo as marcas.</p>
+                
+                    <ul class="values">
+                        <li>
+                            <p class="price">R$740,00 Mensal</p>
+                        </li>
+                        <li>
+                            <p class="duration">6 Semestres</p>
+                        </li>
+                    </ul>
+                    <button class="button">Increver-se</button>
                 </div>
                 <div>
                     <img class="image" src="img/curso-marketing.jpg" alt="marketing">
@@ -82,41 +125,73 @@
                 <div>
                     <img class="image" src="img/curso-adm.jpg" alt="foto adm">
                 </div>
-                <div class="curso">
+                <div class="curso" style="padding: 10px;">
                     <p class="title">Tecnólogo em Administração: Comercio de Exterior</p>
                     <p class="description">O profissional de Comércio Exterior domina as técnicas e os métodos de compra e venda de produtos e serviços entre empresas e governos de diferentes países.</p>
+                
+                    <ul class="values">
+                        <li>
+                            <p class="price">R$1300,00 Mensal</p>
+                        </li>
+                        <li>
+                            <p class="duration">8 Semestres</p>
+                        </li>
+                    </ul>
+                    <button class="button">Increver-se</button>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="rodape">
-        <div class="location">
-            <span>
-                <i class="fas fa-map-marked-alt"></i>
-            </span>
-            <p>Avenida Vital Brasil, N° 500 - Butantã</p>
+    <footer>
+        <div>
+            <img id ="logo-animado" src="img/logo.png" alt="logo" height="100" style="margin-top: 20px;">
         </div>
+        <div class="rodape">
+            <div class="location">
+                <span>
+                    <i class="fas fa-map-marked-alt fa-lg"></i>
+                </span>
+                <p>Avenida Vital Brasil, N° 500 - Butantã CEP: 04849-420</p>
+                
+            </div>
+            
+            <div class="contact">
+                <ul>
+                    <li>
+                        <span>
+                            <i class="fas fa-phone-square-alt fa-lg"></i>
+                        </span>
+                        <p>(11)5528-4578</p>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fas fa-phone-square-alt fa-lg"></i>
+                        </span>
+                        <p>(11)99258-4578</p>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </span>
+                        <p>contato@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="contact">
-            <span>
-                <i class="fas fa-phone-square-alt"></i>
-            </span>
-            <p>(11)5528-4578</p>
-        </div>
-
-        <div class="medias">
-            <span>
-                <i class="fab fa-instagram"></i>
-            </span>
-            <span>
-                <i class="fab fa-facebook"></i>
-            </span>
-            <span>
-                <i class="fab fa-whatsapp-square"></i>
-            </span>
+            <div class="medias">
+                <span>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </span>
+                <span>
+                    <i class="fab fa-facebook fa-2x"></i>
+                </span>
+                <span>
+                    <i class="fab fa-whatsapp-square fa-2x"></i>
+                </span>
+            </div>
         </div>
     </footer>
-
+    
 </body>
 </html>
