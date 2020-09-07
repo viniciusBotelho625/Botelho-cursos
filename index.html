@@ -6,57 +6,86 @@
     <title>Botelho Cursos</title>
 
     <script src="https://kit.fontawesome.com/da77f520d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="nav-bar">
         <ul>
             <a href="#" class="image">
-                <img src="img/logo.png" alt="logo" height="80" width="180">
+                <img src="img/logo.png" alt="logo" height="70" width="150">
             </a>
-            <li class="item">Home</li>
-            <li class="item">Sobre Nós</li>
+            <div class="item-nav">
+                <span>
+                    <i class="fas fa-home"></i>
+                </span>
+                <li style="margin-right: 10px;" class="item">Home</li>
+                <span>
+                    <i class="far fa-question-circle"></i>
+                </span>
+                <li class="item">Sobre Nós</li>
+            </div>
         </ul>
     </nav>
     <section class="banner">
-        <img src="img/banner.jpg" alt="banner">
+        <img id="banner" src="img/banner.jpg" alt="banner">
     </section>
 
     <main class="container">
         <h1>Cursos em destaque</h1>
 
-        <section class="item">
+        <section class="components">
             <div class="content">
-                <img src="img/curso-ti.jpg" alt="TI">
-                <p class="title">Tecnólogo Análise e Desenvolvimento de Sistemas</p>
-                <p class="description">O tecnólogo em Análise e Desenvolvimento de Sistemas é um profissional de nível superior que analisa, projeta, documenta, especifica, testa, implementa e cuida da manutenção de sistemas computacionais e software.</p>
+                <div>
+                    <img class="image" src="img/curso-ti.jpg" alt="TI">
+                </div>
+                <div class="curso">
+                    <p class="title">Tecnólogo Análise e Desenvolvimento de Sistemas</p>
+                    <p class="description">O tecnólogo em Análise e Desenvolvimento de Sistemas é um profissional de nível superior que analisa, projeta, documenta, especifica, testa, implementa e cuida da manutenção de sistemas computacionais e software.</p>
+                </div>
             </div>
         </section>
-        <section class="item">
-            <div class="conteudo">
-                <img src="img/curso-design.jpg" alt="design">
-                <p class="title">Tecnólogo em Design gráfico</p>
-                <p class="description">O curso de Design forma o profissional capacitado para desenvolver conceitos visuais para peças gráficas e materiais. Quando desenvolve um produto, se preocupa com forma, funcionalidade, estrutura e estética.</p>
+        <section class="components">
+            <div class="content">
+                <div class="cursos">
+                    <p class="title">Tecnólogo em Design gráfico</p>
+                    <p class="description">O curso de Design forma o profissional capacitado para desenvolver conceitos visuais para peças gráficas e materiais. Quando desenvolve um produto, se preocupa com forma, funcionalidade, estrutura e estética.</p>
+                </div>
+                <div>
+                    <img class="image" src="img/curso-design.jpg" alt="design">
+                </div>
             </div>
         </section>
-        <section class="item">
-            <div class="conteudo">
-                <img src="img/curso-fotografia.jpg" alt="fotografía">
-                <p class="title">Tecnólogo em Fotografia</p>
-                <p class="description">A faculdade de Fotografia prepara o profissional para utilizar diversas técnicas de produção, captação, finalização e tratamento de imagens. Os estudantes aprendem sobre instrumentos e processos digitais e algumas faculdades incluem também o processo analógico em sua grade curricular.</p>
+        <section class="components">
+            <div class="content">
+                <div>
+                    <img class="image" src="img/curso-fotografia.jpg" alt="fotografía">
+                </div>
+                <div class="curso">
+                    <p class="title">Tecnólogo em Fotografia</p>
+                    <p class="description">A faculdade de Fotografia prepara o profissional para utilizar diversas técnicas de produção, captação, finalização e tratamento de imagens. Os estudantes aprendem sobre instrumentos e processos digitais e algumas faculdades incluem também o processo analógico em sua grade curricular.</p>
+                </div>
             </div>
         </section>
-        <section class="item">
-            <div class="conteudo">
-                <img src="img/curso-marketing.jpg" alt="marketing">
-                <p class="title">Tecnólogo em Marketing</p>
-                <p class="description">O Tecnólogo em Marketing identifica tendências do mercado consumidor, estuda oportunidades para venda de produtos e serviços e elabora campanhas com fins comerciais. Sua principal função é satisfazer clientes e garantir retorno positivo as marcas.</p>
+        <section class="components">
+            <div class="content">
+                <div class="cursos">
+                    <p class="title">Tecnólogo em Marketing</p>
+                    <p class="description">O Tecnólogo em Marketing identifica tendências do mercado consumidor, estuda oportunidades para venda de produtos e serviços e elabora campanhas com fins comerciais. Sua principal função é satisfazer clientes e garantir retorno positivo as marcas.</p>
+                </div>
+                <div>
+                    <img class="image" src="img/curso-marketing.jpg" alt="marketing">
+                </div>
             </div>
         </section>
-        <section class="item">
-            <div class="conteudo">
-                <img src="img/curso-adm.jpg" alt="foto adm">
-                <p class="title">Tecnólogo em Administração: Comercio de Exterior</p>
-                <p class="description">O profissional de Comércio Exterior domina as técnicas e os métodos de compra e venda de produtos e serviços entre empresas e governos de diferentes países.</p>
+        <section class="components">
+            <div class="content">
+                <div>
+                    <img class="image" src="img/curso-adm.jpg" alt="foto adm">
+                </div>
+                <div class="curso">
+                    <p class="title">Tecnólogo em Administração: Comercio de Exterior</p>
+                    <p class="description">O profissional de Comércio Exterior domina as técnicas e os métodos de compra e venda de produtos e serviços entre empresas e governos de diferentes países.</p>
+                </div>
             </div>
         </section>
     </main>
